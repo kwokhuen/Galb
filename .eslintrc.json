@@ -1,0 +1,24 @@
+{
+  "extends": "standard",
+  "plugins": [
+    "standard",
+    "promise",
+    "react",
+    "react-native"
+  ],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "rules": {
+    "space-before-function-paren": ["error", {
+      "anonymous": "ignore",
+      "named": "ignore",
+      "asyncArrow": "ignore"
+    }],
+    "react/jsx-uses-vars": 1,
+    "react-native/no-unused-styles": 2,
+    "react-native/split-platform-components": 2
+  }
+}
